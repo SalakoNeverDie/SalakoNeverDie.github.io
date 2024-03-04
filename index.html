@@ -29,6 +29,26 @@
 			rel="stylesheet"
 			crossorigin />
 		<title>Salako</title>
+		<script>
+			// Disable right-click context menu
+			document.addEventListener('contextmenu', function (e) {
+			  e.preventDefault();
+			});
+		
+			// Disable access to developer tools
+			document.onkeydown = function (e) {
+			  if (
+				(e.ctrlKey && e.shiftKey && e.keyCode === 73) || // Ctrl+Shift+I
+				(e.ctrlKey && e.shiftKey && e.keyCode === 67) || // Ctrl+Shift+C
+				(e.ctrlKey && e.shiftKey && e.keyCode === 74) || // Ctrl+Shift+J
+				(e.ctrlKey && e.keyCode === 85)                  // Ctrl+U
+			  ) {
+				return false;
+			  }
+			};
+		  </script>
+		</head>
+		<body>
 	</head>
 	<body oncontextmenu="return false;">
 		<div class="container">
@@ -37,7 +57,7 @@
 					<div class="banner">
 						<img
 							id="banner-image"
-							src="https://media.discordapp.net/attachments/1157617984752328788/1213863846209658912/b294eca10a82eb5e7b532c58c41110a8_1.jpg?ex=65f705cd&is=65e490cd&hm=da08dea258978803481d40262f271b5f1c2d2cc021204bfe56d555fe6b5cb42e&=&format=webp&width=1038&height=671"
+							src="https://pbs.twimg.com/media/D5YzEsKU0AITf8q?format=jpg&name=4096x4096"
 							alt="" />
 					</div>
 					<div class="main-header">
@@ -114,12 +134,18 @@
 										<span class="space">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</span>
 	                                    Color The Font
 										<a href="https://dungfx.github.io/" target="_blank"> Mia Colorizer</a>
-										<span class="space">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</span>
+										<span class="space">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</span>
 									    Server Discord
 										<a href="https://discord.gg/2026" target="_blank"
 											>Anarchy Empire</a
 										>
 										
+										<span class="space">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤGun.lol </span>
+									    <a href="https://guns.lol/salako" target="_blank"> My 2nd Profile </a>
+                                        <div class="flag">
+											<img
+												src="./public/icons/gun.svg" />
+										</div>
 										<a
 											href=""
 											target="_blank"
@@ -147,6 +173,10 @@
 										<i class="fas fa-circle"></i>
 										<span>Anarchy</span>
 									</div>
+									<div class="rol blue">
+										<i class="fas fa-circle"></i>
+										<span>Cheater</span>
+									</div>
 									<!-- -->
 								</div>
 								<div class="divider social-divider"></div>
@@ -157,7 +187,7 @@
 									<div class="column">
 										<a
 											class="platform"
-											href="http://steamcommunity.com/id/MiyagawaMizu/"
+											href="https://steamcommunity.com/id/ThanhDauSi/"
 											rel="noreferrer noopener"
 											target="_blank">
 											<img
@@ -179,7 +209,7 @@
 										</a>
 										<a
 											class="platform"
-											href="http://fb.com/MiyagawaMizu/"
+											href="https://www.facebook.com/profile.php?id=61550816703238"
 											rel="noreferrer noopener"
 											target="_blank">
 											<img
@@ -189,7 +219,7 @@
 												src="./public/platforms/facebook.svg" />
 											<div class="text-base platform-username">Đỗ Trung Dũng</div>
 											<div
-												href="http://fb.com/MiyagawaMizu/"
+												href="https://www.facebook.com/profile.php?id=61550816703238"
 												rel="noreferrer noopener"
 												target="_blank">
 												<img
@@ -204,7 +234,7 @@
 									<div class="column">
 										<a
 											class="platform"
-											href="https://github.com/MiyagawaMizu"
+											href="https://github.com/SalakoNeverDie"
 											rel="noreferrer noopener"
 											target="_blank">
 											<img
@@ -226,7 +256,7 @@
 										</a>
 										<a
 											class="platform"
-											href="https://discord.gg/XCgDcusrNj"
+											href="https://discord.gg/2026"
 											rel="noreferrer noopener"
 											target="_blank">
 											<img
@@ -268,7 +298,7 @@
 
 		⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 		<audio controls autoplay loop>
-			<source src="music1.mp3">
+			<source src="audio.mp3">
 			This browser does not support HTML5 audio
 		</audio>
 	</body>
