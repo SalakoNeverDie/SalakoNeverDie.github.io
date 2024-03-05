@@ -131,16 +131,16 @@
 												src="./public/icons/flag-for-flag-vietnam-svgrepo-com.svg" />
 										</div>
 
-										<span class="space">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</span>
-	                                    Color The Font
+										<span class="space"></span>
+									</p>Color The Font
 										<a href="https://dungfx.github.io/" target="_blank"> Mia Colorizer</a>
-										<span class="space">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</span>
-									    Server Discord
+										<span class="space"></span></p>
+									</p>Server Discord
 										<a href="https://discord.gg/2026" target="_blank"
 											>Anarchy Empire</a
-										>
+										></p>
 										
-										<span class="space">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤGun.lol </span>
+										<span class="space">Gun.lol </span>
 									    <a href="https://guns.lol/salako" target="_blank"> My 2nd Profile </a>
                                         <div class="flag">
 											<img
@@ -301,5 +301,73 @@
 			<source src="audio.mp3"  type="audio/mp3">
 			Your browser does not support the audio element.
 		</audio>
+		<style>
+			html, body {
+			  cursor: url('hehe.png'), auto;
+			  /* Replace 'your-custom-cursor.png' with the path to your custom cursor image */
+			  height: 100%;
+			  margin: 0;
+			}
+		
+			/* Optional: Add some styles to make the cursor image more noticeable */
+			h1 {
+			  font-family: 'Arial', sans-serif;
+			  text-align: center;
+			  margin-top: 100px;
+			}
+		  </style>
+		</head>
+		<body>
+		</body>
+		</html>
+		<style>
+			body {
+			  margin: 0;
+			  overflow: hidden;
+			}
+		
+			.click-effect {
+			  position: absolute;
+			  background-color: #db3434; /* Màu của hiệu ứng, thay đổi theo nhu cầu */
+			  width: 30px;
+			  height: 30px;
+			  border-radius: 50%;
+			  animation: ripple 0.6s linear;
+			  transform: scale(0);
+			}
+		
+			@keyframes ripple {
+			  to {
+				transform: scale(4);
+				opacity: 0;
+			  }
+			}
+		  </style>
+		</head>
+		<body>
+		
+		<script>
+		  document.addEventListener('DOMContentLoaded', function () {
+			document.body.addEventListener('click', createRippleEffect);
+		  });
+		
+		  function createRippleEffect(event) {
+			const ripple = document.createElement('div');
+			ripple.className = 'click-effect';
+		
+			const x = event.clientX;
+			const y = event.clientY;
+		
+			ripple.style.left = `${x}px`;
+			ripple.style.top = `${y}px`;
+		
+			document.body.appendChild(ripple);
+		
+			// Xóa phần tử hiệu ứng sau khi kết thúc animation
+			ripple.addEventListener('animationend', () => {
+			  ripple.remove();
+			});
+		  }
+		</script>
 	</body>
 </html>
