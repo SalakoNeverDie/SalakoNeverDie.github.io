@@ -12,7 +12,7 @@
   --primary-h-bottom: 0; /* black */
   --primary-s-bottom: 0%;
   --primary-l-bottom: 0%;
-  --text-color: black;
+  --text-color: #fff;
   --box-shadow-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -68,9 +68,7 @@ body {
 }
 
 .box-color {
-  background: linear-gradient(to bottom,
-      hsl(var(--primary-h-top), var(--primary-s-top), var(--primary-l-top)),
-      hsl(var(--primary-h-bottom), var(--primary-s-bottom), var(--primary-l-bottom)));
+  background: linear-gradient(to bottom, hsl(0deg 0% 0%), hsl(0deg 0% 0%));
 }
 
 .container {
@@ -90,7 +88,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("https://i.pinimg.com/originals/d2/09/71/d209719966617c4765041578060c2f0a.gif");
+  background-image: url("https://i.pinimg.com/originals/8e/38/0b/8e380b220945d09c6faa0de34ccaf587.gif");
   background-repeat: no-repeat;
   z-index: -1;
   filter: blur(5px);
@@ -125,7 +123,7 @@ body {
   --primary-l-bottom: 78%;
   width: 600px;
   max-height: calc(100vh - 100px);
-  /* color: var(--text-color); */
+  color: var(--text-color);
   border-radius: 8px;
   margin: 0 auto;
 }
@@ -164,7 +162,7 @@ body {
   height: 120px;
   border-radius: 50%;
   padding: 8px;
-  background-color: hsl(210, 44%, 94%);
+  background-color: hsl(0, 0%, 100%);
   --primary-s-top: 42%;
   --primary-l-top: 95%;
   --primary-s-bottom: 44%;
@@ -409,9 +407,7 @@ body {
 
 .roles-body .rol {
   border-radius: 4px;
-  background: linear-gradient(to bottom,
-      hsl(var(--primary-h-top), var(--primary-s-top), var(--primary-l-top)),
-      hsl(var(--primary-h-bottom), var(--primary-s-bottom), var(--primary-l-bottom)));
+  background: linear-gradient(to bottom, hsl(0deg 0% 0%), hsl(0deg 0% 0%));
   --primary-s-top: 45%;
   --primary-l-top: 96%;
   --primary-h-bottom: var(--primary-h-top);
@@ -434,7 +430,7 @@ body {
 }
 
 .roles-body .rol span {
-  color: var(--text-color);
+  color: #ffffff;
   margin-left: 4px;
   margin-right: 4px;
 }
@@ -517,6 +513,10 @@ body {
   color: #00aff4;
 }
 
+.pink {
+  color: #f70056;
+}
+
 .chat-container {
   width: 494px;
   max-width: 514px;
@@ -543,7 +543,7 @@ body {
 
 @media (width <=640px) {
   .container::before {
-    background-image: url("https://i.pinimg.com/564x/1c/36/a4/1c36a4e31f51fa2c7afd0269f44b428e.jpg");
+    background-image: url("https://i.pinimg.com/originals/8e/38/0b/8e380b220945d09c6faa0de34ccaf587.gif");
     margin: -2px;
     filter: blur(2px);
     background-color: rgba(0, 0, 0, 0.5);
