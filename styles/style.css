@@ -12,8 +12,8 @@
   --primary-h-bottom: 0; /* black */
   --primary-s-bottom: 0%;
   --primary-l-bottom: 0%;
-  --text-color: #fff;
-  --box-shadow-color: rgba(0, 0, 0, 0.1);
+  --text-color: #ffffff;
+  --box-shadow-color: rgba(255, 255, 255, 0.863);
 }
 
 /* ... (rest of the code remains the same) */
@@ -68,7 +68,7 @@ body {
 }
 
 .box-color {
-  background: linear-gradient(to bottom, hsl(0deg 0% 0%), hsl(0deg 0% 0%));
+  background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.199), hsla(0, 55%, 29%, 0.164));
 }
 
 .container {
@@ -88,7 +88,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("https://i.pinimg.com/originals/8e/38/0b/8e380b220945d09c6faa0de34ccaf587.gif");
+  background-image: url("https://i.ibb.co/qJ6Ck6J/remilia-scarlet-touhou.jpg");
   background-repeat: no-repeat;
   z-index: -1;
   filter: blur(5px);
@@ -101,7 +101,7 @@ body {
 }
 
 .profile-border {
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 15px rgb(0, 0, 0);
   padding: 5px;
   position: relative;
   display: flex;
@@ -152,7 +152,7 @@ body {
   align-items: center;
   justify-content: center;
   position: absolute;
-  border-radius: 50%;
+  border-radius: 70%;
   top: 120px;
   left: 16px;
 }
@@ -253,7 +253,7 @@ body {
   top: -77px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: #111214;
+  background-color: #000000;
   color: #fff;
   padding: 10px;
   border-radius: 5px;
@@ -266,7 +266,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   border: 5px solid transparent;
-  border-top-color: #111214;
+  border-top-color: #000000;
 }
 
 .card {
@@ -543,7 +543,7 @@ body {
 
 @media (width <=640px) {
   .container::before {
-    background-image: url("https://i.pinimg.com/originals/8e/38/0b/8e380b220945d09c6faa0de34ccaf587.gif");
+    background-image: url("https://i.ibb.co/qJ6Ck6J/remilia-scarlet-touhou.jpg");
     margin: -2px;
     filter: blur(2px);
     background-color: rgba(0, 0, 0, 0.5);
