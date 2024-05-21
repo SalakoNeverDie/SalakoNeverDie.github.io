@@ -407,7 +407,7 @@ body {
 
 .roles-body .rol {
   border-radius: 4px;
-  background: linear-gradient(to bottom, hsl(0deg 0% 0%), hsl(0deg 0% 0%));
+  background: linear-gradient(to bottom, hsla(0, 23%, 12%, 0.247), hsla(0, 0%, 0%, 0.219));
   --primary-s-top: 45%;
   --primary-l-top: 96%;
   --primary-h-bottom: var(--primary-h-top);
